@@ -4,7 +4,7 @@
 from PIL import Image
 
 # Read image
-img = Image.open('./earth-globe.jpg')
+img = Image.open('./IMG-20200613-WA0177.jpg')
 
 # Display image
 img.show()
@@ -17,7 +17,7 @@ img.show()
 # import matplotlib.image as mpimg
 #
 # # Read image
-# img = mpimg.imread('./earth-globe.jpg')
+# img = mpimg.imread('./IMG-20200613-WA0177.jpg')
 #
 # # Display image
 # plt.imshow(img)
@@ -31,7 +31,7 @@ img.show()
 # import matplotlib.pyplot as plt
 #
 # # Read image
-# img = imageio.imread('./earth-globe.jpg')
+# img = imageio.imread('./IMG-20200613-WA0177.jpg')
 #
 # # Display image with matplotlib module
 # plt.imshow(img)
@@ -44,7 +44,7 @@ img.show()
 # import cv2 as cv
 #
 # # Read image
-# img = cv.imread('./earth-globe.jpg',-1)
+# img = cv.imread('./IMG-20200613-WA0177',-1)
 #
 # # Display image
 # cv.imshow('image',img)
@@ -61,7 +61,7 @@ img.show()
 # import matplotlib.pyplot as plt
 #
 # # Read image with opencv-python (cv2)
-# img = cv.imread('./earth-globe.jpg',1)
+# img = cv.imread('./IMG-20200613-WA0177.jpg',1)
 #
 # # opencv retun BGR Color mode,
 # # but matplotlib needs RGB Color mode
